@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESP32 WiFi Scanner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>ESP32 Wi‑Fi Scanner</h1>
+
+  <div class="stats">
+    <div class="card">
+      <div class="label">Networks</div>
+      <div class="value" id="count">0</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Strongest</div>
+      <div class="value" id="strongest">--</div>
+    </div>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>SSID</th>
+          <th>RSSI</th>
+          <th>Channel</th>
+          <th>Encryption</th>
+        </tr>
+      </thead>
+      <tbody id="wifiTable"></tbody>
+    </table>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

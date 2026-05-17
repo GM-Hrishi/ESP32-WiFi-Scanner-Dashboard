@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  background: #0f172a;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.stats {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  min-width: 150px;
+}
+
+.label {
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.value {
+  font-size: 28px;
+  margin-top: 5px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1e293b;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 14px;
+  text-align: left;
+}
+
+th {
+  background: #334155;
+}
+
+tr:nth-child(even) {
+  background: #273549;
+}
+
+.signal-good {
+  color: #22c55e;
+}
+
+.signal-medium {
+  color: #f59e0b;
+}
+
+.signal-bad {
+  color: #ef4444;
+}
